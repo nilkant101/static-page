@@ -1,0 +1,263 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    /* background-color: #979393; */
+}
+
+#home {
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     width: 100%;
+     padding: 30px 50px;
+}
+
+#nav img {
+    width: 100px;
+}
+#nav #right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 1vw;
+    font-weight: 400; 
+}
+
+#nav i {
+  margin-top: 3px;   
+  font-size: 20px; 
+}
+
+
+#home #homemain {
+    width: 100%;
+    padding:13vw 18vw ;
+    letter-spacing: 1vw;
+}
+
+#homemain h1{
+    font-weight: 400;
+    gap: 40px;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #0a4a35;
+    font-size: 5vw;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing:-5px ;
+}
+
+#homemain .headings h1:hover {
+    color: #43f4b9;
+    /* background-color: white; */
+}
+
+#homelast {
+    padding: 5vw 15vw ;
+}
+
+#homelast p{
+    width: 70%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;
+}
+
+#homelast p::selection{
+    color: white;
+    background-color: #000;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+
+.fheading>h1 {
+    line-height: 1;
+    font-size:3vw ;
+    font-weight: 400;
+}
+
+.fheading>h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0vw 5vw; */
+    margin-top: 5vw;
+    /* border: 2px solid red; */
+
+}
+
+#fleft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;     /* its take parent height */
+    /* border: 1px solid blue; */
+}
+.fleftelm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* background-color: black; */
+    height: inherit;
+    /* padding-left: 10%; */
+}
+
+.fleftelm h3 {
+    font-size: 1.3vw ;
+    font-weight: 400;
+}
+
+
+
+.fleftelm h1 {
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 2vw 0;
+}
+
+.fleftelm h5 {
+    opacity: 0.5;
+}
+
+
+
+
+#fright {
+    /* direction: column; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;      /*its take parent height */
+    /* border: 1px solid green; */
+
+}
+
+#fright .images {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(26, 23, 23); */
+    /* margin-top: 40%; */
+}
+
+#btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btndiv button:hover {
+    transform: scale(1.1);
+    background-color: #43f4b9;
+}
+#btndiv button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* letter-spacing: -1px; */
+}
+
+#dev {
+    width: 100%;
+    padding: 0 10vw 5vw 15vw;
+    /* padding-bottom: 10vw; */
+}
+
+#dev h1 {
+    width: 50%;
+    font-size: 3.7vw;
+    font-weight:400 ;
+    line-height: 1;
+}
+
+#dev {
+    font-size: 1.5vw;
+     margin-top: 3vw;
+     letter-spacing: -.5px;
+}
+
+#slides{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slide{
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    /* background-color: #000000; */
+}
+
+.slide .img {
+    width: 100%;
+    height: 200px;
+     /* background-color: yellow;  */
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.slide .img img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: center;
+}
+
+.slide .tag {
+    margin: 20px 0;
+    padding: 10px 22px;
+    border-radius:100px ;
+    width: fit-content;
+    background-color: #e1e1e1;
+}
